@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .credits{
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            font-size: 70%;
+            position: fixed;
+            width: 100%;
+            nimation: open 1s;
+        }
+        ul{
+            list-style-type:none; 
+            position:fixed; 
+            margin:0;                 
+            background-color:#042331; 
+            width:100%;
+            padding:0; 
+            overflow: hidden;
+            nimation: open 1s;
+       }
+       li{
+            float:left;
+       }
+
+       .nav li a{
+            display:block;
+            color:white;
+            padding: 10px; 
+            text-decoration: none; 
+            box-sizing: border-box; 
+            font-size:12.5px; 
+            font-family: courier; 
+            line-height: 15px;
+            background-color: #042340;
+            width: 98px;
+            height: 55px;
+            nimation: open 2s;
+       }
+       #htmlba{               
+           nimation: open 2.4s;
+       }
+       #htmlhe{
+           nimation: open 2.7s;   
+       }
+       #htmlpa{
+           nimation: open 3s;
+       }      
+       .home img{
+            width: 30px;
+            padding: 0;
+            margin: 0;
+       }
+       body{
+           background-image: url('background2.jpg');
+           background-attachment: fixed;
+           background-size: 100% 100%;
+       }
+       #title{
+           margin-top: 200px;
+           margin-bottom: 150px;
+           text-align:center;
+           font-family:courier;
+           font-size: 27px;
+           animation: open 1.5s;
+           color: #fff;           
+       }
+       #prog1{
+           width: 350px;
+           border: double 3px #000;
+           box-shadow: 0 0 20px #fff;
+           border-radius: 10px;
+           animation: open 1s
+       }
+       #prog2{
+           width: 350px;
+           border: double 3px #000;
+           box-shadow: 0 0 20px #fff;
+           border-radius: 10px;
+           animation: open 2s
+       }
+       #container h3{
+           font-family: courier;
+           font-size: 20px;
+           animation: open 2s; 
+       }
+       b{
+           color: #ffc880;
+           font-family: courier;
+       }                              
+       .para{           
+           margin: 10px 20px 0 20px;           
+           border: 3px solid #000;
+           border-radius: 10px;
+           box-shadow: -5px 7px 20px #323232;
+           height: 200px;
+           overflow: scroll;
+           background-color: #fff;
+           animation: open 2.7s;
+       }
+       .para h3{          
+           text-align: center;
+           padding-top: 10px;      
+           animation: open 3.5s;   
+       }          
+       .para p{
+           padding: 0 15px 15px 15px;
+           animation: open 3s;
+       }
+       @keyframes open{
+           0%{
+               opacity: 0;              
+           }
+           70%{
+               opacity: 0;
+           }
+           100%{
+               opacity: 1;
+           }
+       }         
+       @keyframes colors{
+           0%{
+               color: #fff;              
+           }
+           70%{
+               color: #ff6a6a;
+           }
+           100%{
+               color: #e61313;
+           }
+       }         
+       #on{
+           color: red;
+           animation: colors 1s;
+       }
+       #container h2{
+           font-family: Courier;   
+           color: #fff;  
+           animation: open 2s;      
+       }
+       button{
+           background-color: #91ff80;
+           border-radius: 50px;
+           padding: 10px;
+           margin: 10px;              
+           border: none;
+           width: 100px;
+           box-shadow: 8px 7px 10px #0db700;
+           animation: open 4s;
+       }
+       button a{
+           text-decoration: none;
+       }
+       .para a{
+           text-decoration: none;
+           border: none;    
+           animation: open 4s;
+           color: #111;
+           font-size: 5px;
+       }
+       #copyright h3{
+       font-family: courier;
+       }        
+    </style>
+</head>
+<body>
+    <div class="nav">
+<ul>
+<li class="home"><a href="1Webity Homepage.html">
+    <img src="home.jpg" class="homebutton"></a></li>
+<li id="htmlba"><a href="#" id="on">HTML<br>BASIC</a></li>
+<li id="htmlhe"><a href="HTML Heading.html">HTML HEADINGS <br>PARAGRAPHS</a></li>
+<li id="htmlpa"><a href="Reflection.html"><br>REFLECTION</a></li>
+</div>
+<br><br><br>
+    <div class="credits"><h4>Created by Jayson Simballa of Grade 12 ICT CP Honesty</h4></div>
+    <br><br>
+    <div id="container">
+    <div id="title">
+        <h2>HTML Basics</h2>
+    </div>
+    <br><br>
+    <center>
+        <h2>HTML Documents</h2>
+        <br><br>   
+    </center>   
+    <div class="para">
+        <center>
+    <h3>HTML Documents</h3> 
+        </center>
+        <br>
+        <p>All HTML documents must start with a document type declaration: <b>&lt!DOCTYPE html&gt</b>
+         <br><br> 
+         All HTML document itself begins with <b>&lt;html&gt;</b> and ends with <b>&lt;/html&gt;</b>
+         <br><br>The visible part of HTML document is between <b>&lt;body&gt;</b> and <b>&lt;/body&gt;</b></p>     
+    </div>         
+    <br><br>
+    <center>
+        <h3>Example</h3>
+    <img src="HTML Documents.png" id="prog1"> 
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document">Try it yourself»</a></button>
+    </center>  
+    <br><br> 
+    <br><br> 
+    <center>
+        <h2>The &lt;!DOCTYPE&gt; Declaration</h2>                 
+    </center>
+        <div class="para">
+        <h3>The &lt;!DOCTYPE&gt; Declaration</h3>
+        <br><br>
+        <p>The <b>&lt;!DOCTYPE&gt;</b> represent the document type, and helps browser to display web pages correctly.
+        <br><br>
+        It must only appear once, at the top of the page (before any HTML tags).
+        <br><br>
+        The <b>&lt;!DOCTYPE&gt;</b> declaration is not case sensitive.
+        <br><br>
+        The <b>&lt;!DOCTYPE&gt;</b> declaration for HTML5 is:
+        <br><br>
+       <center><b>&lt;!DOCTYPE html&gt;</b></center></p>
+    </div>
+    <br><br>
+    <br><br>
+    <center>
+        <h2>HTML Headings</h2>
+    </center>
+        <div class="para">
+        <h3>The HTML Headings</h3>
+        <br><br>
+         <p>HTML headings are defined with the <b>&lt;h1&gt;</b> to <b>&lt;h6&gt;</b> tags.
+         <br><br>
+         <b>&lt;h1&gt;</b> defines the most important heading. <b>&lt;h6&gt;</b> defines the least importand headings. 
+         <br><br>
+         <center>
+         <a href="HTML Heading.html"><u>For More Info»</u></a>
+         </center></p>
+    </div>
+    <br><br>
+    <center>
+        <img src="HTML Headings.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings">Try it yourself»</a></button>
+    </center>
+    <br><br>
+    <br><br>
+    <center>
+        <h2>HTML Paragraphs</h2>
+    </center>
+        <div class="para">
+        <h3>The HTML Paragraphs</h3>                
+        <br><br> 
+        <p>HTML Paragraphs are define with <b>&lt;p&gt;</b> tags
+        <br><br>
+        Example:
+        <br><br>
+        <center>
+        <b>&lt;p&gt;</b>This is a paragraph.<b>&lt;/p&gt;
+        <br><br>      
+         <a href="HTML Heading.html"><u>For More Info»</u></a>        </b>
+        </center></p>       
+    </div>
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Paragraphs.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs">Try it yourself»</a></button>
+    </center>
+    <br><br>
+    <br><br>
+    <center>
+        <h2>HTML Links</h2>
+    </center>
+        <div class="para">
+        <h3>The HTML Links</h3>
+        <br><br>  
+        <p>HTML links are defined with the  <b>&lt;a&gt;</b>  tag, together with <b>href</b> attribute wich specify the link's destination.   
+        <br><br>
+         Example:
+         <br><br>
+         <b>&lt;a</b> <b style="color: red;"> href</b><b style="color: blue;">="https://link.com"</b><b>&gt;</b> This is a link <b>&lt;/a&gt;</b></p>        
+    </div>
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Links.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link">Try it yourself»</a></button>
+    </center>
+    <br><br>
+    <br><br>
+    <center>
+        <h2>HTML Image</h2>
+    </center>
+        <div class="para">
+        <h3>The HTML Image</h3>
+        <br><br>  
+        <p>HTML Images are defined with the <b>&lt;img&gt;</b> tag.
+        <br><br>
+        Together with <b>src</b> attribute which is the source file, <b>alt</b> attribute which is the alternative text which will show up if the internet is slow and the image is having a hard time loading. In addition is the <b>width</b> and <b>height</b> attributes that allow the image's size to be manipulated.
+        <br><br>
+        Example:
+        <br><br>
+        <center>
+        <b>&lt;img</b> <b style="color: red;">src</b>=<b style="color: blue;">"image.jpg"</b><b style="color: red;">alt</b>=<b style="color: blue;">"an image"</b> <b style="color: red;">width</b>=<b style="color: blue;">"200px"</b> <b style="color: red;">height</b>=<b style="color: blue;">"200px"</b><b>&gt;</b></p>   
+        </center>   
+    </div>
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Images.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/html_basic.asp">Try it yourself»</a></button>
+    </center>
+    </div> 
+    </div> 
+    <br><br><br> 
+    <div id="copyright">
+<center>
+    <h3>©Webity2024</h3>
+</center>
+</div>
+<br><br>
+    <br><br><br>  
+</body>
+</html>

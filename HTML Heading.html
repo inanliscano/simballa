@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML HEADING AND PARAGRAPH </title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .credits{
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            font-size: 70%;
+            position: fixed;
+            width: 100%;
+            nimation: open 1s;
+        }
+        ul{
+            list-style-type:none; 
+            position:fixed; 
+            margin:0;                 
+            background-color:#042331; 
+            width:100%;
+            padding:0; 
+            overflow: hidden;
+            nimation: open 1s;
+       }
+       li{
+            float:left;
+       }
+
+       .nav li a{
+            display:block;
+            color:white;
+            padding: 10px; 
+            text-decoration: none; 
+            box-sizing: border-box; 
+            font-size:12.5px; 
+            font-family: courier; 
+            line-height: 15px;
+            background-color: #042340;
+            width: 98px;
+            height: 55px;
+            nimation: open 2s;
+       }
+       #htmlba{               
+           nimation: open 2.4s;
+       }
+       #htmlhe{
+           nimation: open 2.7s;   
+       }
+       #htmlpa{
+           nimation: open 3s;
+       }      
+       .home img{
+            width: 30px;
+            padding: 0;
+            margin: 0;
+       }
+       body{
+           background-image: url('background2.jpg');
+           background-attachment: fixed;
+           background-size: 100% 100%;
+       }
+       #title{
+           margin-top: 200px;
+           margin-bottom: 150px;
+           text-align:center;
+           font-family:courier;
+           font-size: 27px;
+           animation: open 1.5s;
+           color: #fff;           
+       }
+       #prog1{
+           width: 350px;
+           border: double 3px #000;
+           box-shadow: 0 0 20px #fff;
+           border-radius: 10px;
+           animation: open 1s
+       }
+       #prog2{
+           width: 350px;
+           border: double 3px #000;
+           box-shadow: 0 0 20px #fff;
+           border-radius: 10px;
+           animation: open 2s
+       }
+       #container h3{
+           font-family: courier;
+           font-size: 20px;
+           animation: open 2s; 
+       }
+       b{
+           color: #ffc880;
+           font-family: courier;
+       }                              
+       .para{           
+           margin: 10px 20px 0 20px;           
+           border: 3px solid #000;
+           border-radius: 10px;
+           box-shadow: -5px 7px 20px #323232;
+           height: 200px;
+           overflow: scroll;
+           background-color: #fff;
+           animation: open 2.7s;
+       }
+       .para h3{          
+           text-align: center;
+           padding-top: 10px;      
+           animation: open 3.5s;   
+       }          
+       .para p{
+           padding: 0 15px 15px 15px;
+           animation: open 3s;
+       }
+       @keyframes open{
+           0%{
+               opacity: 0;              
+           }
+           70%{
+               opacity: 0;
+           }
+           100%{
+               opacity: 1;
+           }
+       }         
+       @keyframes colors{
+           0%{
+               color: #fff;              
+           }
+           70%{
+               color: #ff6a6a;
+           }
+           100%{
+               color: #e61313;
+           }
+       }         
+       #on{
+           color: red;
+           animation: colors 1s;
+       }
+       #container h2{
+           font-family: Courier;   
+           color: #fff;  
+           animation: open 2s;      
+       }
+       button{
+           background-color: #91ff80;
+           border-radius: 50px;
+           padding: 10px;
+           margin: 10px;              
+           border: none;
+           width: 100px;
+           box-shadow: 8px 7px 10px #0db700;
+           animation: open 4s;
+       }
+       button a{
+           text-decoration: none;
+       }
+       .para a{
+           text-decoration: none;
+           border: none;    
+           animation: open 4s;
+           color: #111;
+           font-size: 5px;
+       }
+       #copyright h3{
+       font-family: courier;
+       }        
+    </style>
+</head>
+<body>
+    <div class="nav">
+<ul>
+<li class="home"><a href="1Webity Homepage.html">
+    <img src="home.jpg" class="homebutton"></a></li>
+<li id="htmlba"><a href="HTML Basic.html">HTML<br>BASIC</a></li>
+<li id="htmlhe"><a href="#" id="on">HTML HEADINGS<br>PARAGRAPHS</a></li>
+<li id="htmlpa"><a href="Reflection.html"><br>REFLECTION</a></li>
+</div>
+<br><br><br>
+    <div class="credits"><h4>Created by Jayson Simballa of Grade 12 ICT CP Honesty</h4></div>
+    <br><br>
+    <div id="container">
+    <div id="title">
+        <h2>HTML Headings</h2>
+    </div>
+    <br><br>    
+    <div class="para">
+        <center>
+    <h3>HTML Heading</h3> 
+        </center>
+        <br><br>
+        <p>HTML headings are title or subtitles that you want to display on a webpage.
+        <br><br>
+        They can be large and small;  <b>&lt;h1&gt;</b> being the largest of all the other headings and <b>&lt;h6&gt;</b> being the smallest of them all.</p>
+    </div>         
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <br>
+        <img src="HTML Headings 2.png" id="prog1"> 
+        <br><br>
+        <img src="HTML Headings 1.png" id="prog1">    
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings">Try it yourself»</a></button>
+    </center>  
+    <br><br> 
+    <br><br> 
+    <center>
+        <h2>Bigger Headings</h2>                 
+    </center>
+        <div class="para">
+        <h3>Bigger Headings</h3>
+        <br><br>
+        <p>Each HTML headings has a default size. However, you can specify the size for any headings with the <b>style</b> attribute, using the CSS <b>font-size</b> property.
+       </p>
+    </div>  
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Headings.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings_size">Try it yourself»</a></button>
+    </center>    
+    <br><br>
+    <br><br>
+    <div class="para">
+        <h3>Importance of Headings</h3>
+        <br><br>
+        <p>Search engines use the headings to index the structure and content of your webpages.
+        <br><br>
+        Users often skim a page by its headings. It is important kto use headings to show the document structure.
+        <br><br>
+        <b>&lt;h1&gt;</b> headings should be used for main headings, followed by <b>&lt;h2&gt;</b> headings, then the less important <b>&lt;h6&gt;</b>, and so on.</p>
+       </p>
+    </div>  
+    <br><br><br>
+    <hr>
+    <div id="container">
+    <div id="title">
+        <h2>HTML Paragraphs</h2>
+    </div>  
+        <div class="para">
+        <h3>The HTML Paragraphs</h3>                
+        <br><br>
+        <p>
+         The HTML <b>&lt;p&gt;</b> element defines a paragraph.
+         <br><br>
+         A paragraph always start on a new line, and browser automatically add some white space (a margin) before and after a paragraph.
+        </p>
+    </div>
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Paragraphs 1.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1">Try it yourself»</a></button>
+    </center>
+    <br><br>
+    <br><br>
+    <center>
+        <h2>HTML Display</h2>
+    </center>
+        <div class="para">
+        <h3>The HTML Display</h3>
+        <br><br>  
+        <p>You cannot be sure how HTML will be displayed.
+        <br><br>
+        Large or small screens, and resized windows will create different results.
+        <br><br>
+        With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+        <br><br>
+        The browser will automatically remove any extra spaces and lines when the page us displayed.</p>    
+        <br> 
+    </div>
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Paragraphs 2.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs2">Try it yourself»</a></button>
+    </center>
+    <br><br>
+    <br><br>
+    <center>
+        <h2>HTML Horizontal Rules</h2>
+    </center>
+        <div class="para">
+        <h3>The HTML Horizontal Rules</h3>
+        <br><br>  
+        <p>The <b>&lt;hr&gt;</b> tag defines a thematic break in an HTML page, an is the most often displayed as a horizontal rule.
+        <br><br>
+        The <b>&lt;hr&gt;</b> element is used to seperate content (or define a change) in an HTML page.</p>     
+    </div>
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Paragraphs 3.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_headings_hr">Try it yourself»</a></button>
+    </center>
+    </div> 
+    <br><br><br>
+     <center>
+        <h2>HTML Line Breaks</h2>
+    </center>
+        <div class="para">
+        <h3>The HTML Line Breaks</h3>
+        <br><br>  
+        <p>The HTML <b>&lt;br&gt;</b> element defines a line break.
+        <br><br>
+        The <b>&lt;br&gt;</b> tag is an empty tag, which means it has <b>NO END TAG.</b>
+        <br><br>
+        Use <b>&lt;br&gt;</b> if you want a line break (a new line) without starting a new paragraph.</p>
+             
+    </div>
+    <br><br>
+    <center>
+        <h3>Example</h3>
+        <img src="HTML Paragraphs 4.png" id="prog2">
+        <button><a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs">Try it yourself»</a></button>
+    </center>
+    </div>     
+    </div> 
+    <br><br><br>
+    <div id="copyright">
+<center>
+    <h3>©Webity2024</h3>
+</center>
+</div>
+<br><br> 
+    <br><br><br>  
+</body>
+</html>
